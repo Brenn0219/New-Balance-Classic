@@ -17,7 +17,7 @@
 
 /* ---- BODY ---- */
 
-body {
+body, html {
     background-color: #EAEAEA;
     width: 100%;
 }
