@@ -1,0 +1,446 @@
+@charset "UTF-8";
+
+/* ---- FONTS ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+/* ---- CONFIG GERAL ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+/* ---- BODY ---- */
+
+body {
+    background-color: #EAEAEA;
+}
+
+/* ---- HEADER ---- */
+
+.logo {
+    height: 100px;
+    display: block;
+    margin: 6rem auto;
+}
+
+.fields-balance {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background: linear-gradient(#EAEAEA, white);
+}
+
+.container-balance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+    margin: 2rem 0 0 5rem;
+}
+
+.paragrafo-collection-header {
+    color: #999999;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    color: #111111;
+}
+
+.fields-paragrafo {
+    color: #808080;
+    font-size: 13px;
+    max-width: 380px;
+}
+
+/* ---- MAIN ---- */
+
+.fields-mulheres {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.box-mulher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.img-box-mulher {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.subtitulo-box-mulher {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+}
+
+.field-balance-classic {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.img-balance-classic {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container-balance-classic {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 3rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 240px;
+    text-align: center;
+    color: #f7f2f2;
+}
+
+.paragrafo-collection-classic {
+    margin-bottom: 1rem;
+}
+
+.subtitulo-balance-class {
+    font-size: 37px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.paragrafo-balance-class {
+    margin: 1rem 0;
+    font-size: 13px;
+    
+}
+
+.read-more-link {
+    font-size: 14px;
+    color: #E21836;
+}
+
+.fields-center {
+    background: linear-gradient(#EAEAEA, white);
+}
+
+.container-center {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.fields-subtitulo {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fields-p {
+    margin: 1rem auto;
+    max-width: 680px;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.conteiner-tenis {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+}
+
+.box-tenis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.img-box-tenis {
+    width: 269.5px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.box-tenis-text {
+    position: absolute;
+    margin: 1rem 0;
+    bottom: 0;
+}
+
+.subtitulo-box-tenis {
+    font-size: 15px;
+    color: #808080;
+}
+
+.paragrafo-box-tenis {
+    font-size: 15px;
+}
+
+.img-tenis-cima {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.fields-womans-tenis {
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    margin-top: -5px;
+}
+
+.img-womans-tenis {
+    height: 750px;
+}
+
+.container-womans-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(#EAEAEA, white);
+}
+
+.box-womans-text {
+    width: 500px;
+    margin: auto;
+}
+
+.img-womans-box {
+    width: 100%;
+    height: 396px;
+}
+
+.container-pastel {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-pastel-tex {
+    width: 400px;
+    padding: 3rem 1rem;
+    background: linear-gradient(#EAEAEA, white);
+}
+
+.container-pastel-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.img-pastel {
+    height: 453.6px;
+    width: 700px;
+}
+
+.container-tenis-cima {
+    position: relative;
+    margin-bottom: -7px;
+}
+
+.img-tenis-cima-footer {
+    width: 100%;
+}
+
+.paragrafo-tenis-cima-footer {
+    margin: 3rem;
+    text-align: right;
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* ---- FOOTER ---- */
+
+footer {
+    background-color: #333333;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.icones {
+    font-size: 20px;
+    color: white;
+}
+
+.paragrafo-footer {
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.link-footer {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: all .5s;
+}
+
+/* ---- MEDIA QUERY ---- */
+
+@media (max-width: 430px) {
+
+    /* ---- HEADER---- */
+
+    .logo {
+        height: 80px;
+    }
+
+    .fields-balance {
+        display: flex;
+        text-align: center;
+    }
+
+    .container-balance {
+        margin: auto;
+    }
+
+    .paragrafo-collection-header {
+        margin: auto;
+    }
+
+    .fields-paragrafo {
+        width: 210px;
+        margin: auto;
+    }
+
+    .img-container-header {
+        height: 200px;
+        margin-top: 17rem;
+    }
+
+    /* ---- MAIN---- */
+
+    .fields-mulheres {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-box-mulher {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .bold-media-query {
+        font-weight: bold;
+    }
+
+    .fields-subtitulo {
+        margin-bottom: 1rem;
+    }
+
+    .fields-paragrafo {
+        width: 250px;
+        margin-bottom: 1rem;
+    }
+
+    .conteiner-tenis {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img-box-tenis {
+        width: 100%;
+    }
+
+    .img-tenis-cima {
+        width: 100%;
+    }
+
+
+    .fields-womans-tenis {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .img-womans-tenis {
+        width: 100%;
+        height: 600px;
+    }
+
+    .container-womans-text {
+        width: 100%;
+    }
+
+    .box-womans-text {
+        width: 350px;
+    }
+
+    .box-womans-imagem {
+        display: block;
+        margin-bottom: -5px;
+    }
+
+    .img-womans-box {
+        height: 350px;
+        width: 100%;
+    }
+
+    .container-pastel {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .box-pastel-tex{
+        width: 100%;
+    }
+
+    .container-pastel-img {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .img-pastel {
+        width: 100%;
+    }
+
+    .img-tenis-cima-footer {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .paragrafo-tenis-cima-footer {
+        font-size: 13px;
+        width: 150px;
+        margin: 1.5rem 1rem;
+        font-weight: bold;
+    }
+
+    .icones{
+        font-size: 16px;
+    }
+
+    .paragrafo-footer {
+        font-size: 13px;
+    }
+}
